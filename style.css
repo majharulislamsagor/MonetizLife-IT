@@ -1,0 +1,33 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin:5%;
+}
+h1{
+    font-size:50px;
+}
+.orange{
+    color: orange;
+}
+section{
+    display: flex;
+}
+.hulf-width{
+    width: 100%;
+    padding-left:2%;
+    }
+.hulf-width img{
+    width: 50%;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    color:white;
+    background-color: orange;
+    padding: 10px 40px;
+    font-weight: 700;
+    border-radius: 5px;
+}
+.hader{
+    background-image: url(photo/hader3.png);
+    background-repeat: no-repeat;
+}
