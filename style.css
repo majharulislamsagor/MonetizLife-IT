@@ -39,7 +39,7 @@ h2{
     border-radius: 1px;
 }
 .hader{
-    background-image: url(photo/top-banner.png);
+    background-image: url(Photo/top-banner.png);
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
@@ -50,7 +50,7 @@ h2{
         background-position:right;
     }
 
-    .Experience-aria{ background-image: url(photo/exp-bg.png);
+    .Experience-aria{ background-image: url(Photo/exp-bg.png);
         background-repeat: no-repeat;
         background-position: left;
 
