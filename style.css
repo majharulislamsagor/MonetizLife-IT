@@ -1,6 +1,6 @@
 body{
     font-family: 'Poppins', sans-serif;
-    margin:5%;
+    margin:0%;
 }
 h1{
     font-size:50px;
@@ -10,13 +10,21 @@ h1{
 }
 section{
     display: flex;
+    margin-bottom:50px;
 }
 .hulf-width{
     width: 100%;
-    padding-left:2%;
+    padding-left:5%;
     }
 .hulf-width img{
     width: 50%;
+    text-align: right;
+    margin-left: 100px;
+}
+.hulf-width1{
+    
+    text-align:left;
+    
 }
 .link-button{
     text-decoration: none;
@@ -25,9 +33,17 @@ section{
     background-color: orange;
     padding: 10px 40px;
     font-weight: 700;
-    border-radius: 5px;
+    border-radius: 1px;
 }
 .hader{
     background-image: url(photo/hader3.png);
+    background-size: cover;
     background-repeat: no-repeat;
-}
+    width: 100%;
+    }
+    .dream-big{
+        background-image: url(Photo/Shop\ now.png);
+        background-repeat: no-repeat;
+        background-position:right;
+
+    }
