@@ -4,9 +4,14 @@ body{
 }
 h1{
     font-size:40px;
+    color: darkblue;
 }
 h2{
     font-size: 30px;
+    color: darkviolet;
+}
+h3{
+    color: forestgreen;
 }
 .orange{
     color: orange;
@@ -21,8 +26,9 @@ h2{
     }
 .hulf-width img{
     width: 50%;
-    text-align: right;
+    text-align: center;
     margin-left: 100px;
+    width: 60%;
 }
 .hulf-width1{
     
@@ -32,7 +38,7 @@ h2{
 .link-button{
     text-decoration: none;
     background-image: linear-gradient(orange, tomato);
-    color:white;
+    color:rgb(255, 255, 255);
     background-color: orange;
     padding: 10px 40px;
     font-weight: 700;
@@ -75,4 +81,7 @@ h2{
 }
 footer p{
     text-align: center;
+}
+.services{
+   color: darkblue;
 }
