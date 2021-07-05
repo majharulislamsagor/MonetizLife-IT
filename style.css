@@ -9,16 +9,24 @@ h1{
 h2{
     font-size: 30px;
     color: darkviolet;
+    padding-right: 3%;
+    text-align: justify;
 }
 h3{
     color: forestgreen;
+}
+p{
+    text-align: justify;
+    padding-right: 2%;
 }
 .orange{
     color: orange;
 }
 .flexible-container
 {display: flex;
+    align-items: center;
     margin-bottom:50px;
+   
 }
 .hulf-width{
     width: 100%;
@@ -42,16 +50,18 @@ h3{
     background-color: orange;
     padding: 10px 40px;
     font-weight: 700;
-    border-radius: 1px;
+    border-radius: 10px;
+    display: inline;
+
 }
 .hader{
-    background-image: url(Photo/top-banner.png);
+    background-image: url(Photo/nice.png);
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
     }
     .dream-big{
-        background-image: url(Photo/dream-bg.png);
+        background-image: url(Photo/big.png);
         background-repeat: no-repeat;
         background-position:right;
     }
@@ -78,6 +88,7 @@ h3{
     border-left:7px solid;
     border-image: linear-gradient(salmon,tomato);
     border-image-slice: 1;
+    text-align: justify;
 }
 footer p{
     text-align: center;
